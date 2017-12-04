@@ -23,11 +23,11 @@ Things you may want to cover:
 
 * ...
 
-#Log
+# Log
 
-##December 4, 2017
+## December 4, 2017
 
-###Things done today
+### Things done today
 
 * 0900-1000 - Signed divorce papers.
 * Created the API.
@@ -36,7 +36,7 @@ Things you may want to cover:
 * Fixed table/column names in database. Gotta love it.
 * Created local dummy data within DB-Browser so calls can be made to database after the client has been created tomorrow.
 
-###Things to do tonight
+### Things to do tonight
 
 * Review AngularJS to ensure proper creation of client.
 * Take a look at the wireframe and think about where to start with the client.
@@ -45,7 +45,7 @@ Things you may want to cover:
 * Start looking at bootstrap templates
 
 
-###Things to do tomoroow
+### Things to do tomoroow
 
 * Get the client file structure up.
 * Make sure grunt and all supporting files/code within those files are running properly after creation.
