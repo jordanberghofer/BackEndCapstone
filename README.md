@@ -47,6 +47,7 @@ Things you may want to cover:
 
 ### Things to do tomoroow
 
+* Make issue tickets
 * Get the client file structure up.
 * Make sure grunt and all supporting files/code within those files are running properly after creation.
 * Make sure all of the linting is running correctly
