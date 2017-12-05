@@ -8,12 +8,17 @@
 </head>
 
 <body ng-app="ATF">
+	
+	<div id="navbar" ng-include="'partials/navbar.html'"></div>
 
-	<!-- <div id="navbar" ng-include="'partials/navbar.html'"></div> -->
+	<h1>HERROOOOO THUR!!!</h1>
 
+
+
+	
 
 	<!-- content of the page -->
-	<!-- <div class="background" ng-view></div> -->
+	<div ng-view></div>
 
 
 	<!-- <div id="sidebar" ng-include="'partials/sidebar.html'"></div> -->
@@ -23,23 +28,39 @@
 
 
 	<!-- third party dependencies -->
-	<!-- <script src="./lib/node_modules/jquery/dist/jquery.min.js"></script> -->
-	<!-- <script src="./lib/node_modules/angular/angular.min.js"></script> -->
-	<!-- <script src="./lib/node_modules/angular-route/angular-route.min.js"></script> -->
-	<!-- <script src="./lib/node_modules/firebase/firebase.js"></script> -->
+	<script src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./lib/node_modules/angular/angular.min.js"></script>
+	<script src="./lib/node_modules/angular-route/angular-route.min.js"></script>
 
 
 	<!-- app -->
-	<!-- <script src="app/app.js"></script> -->
+	<script src="app/app.js"></script>
 
 	<!-- factories -->
-	<!-- <script src="app/factories/home.factory.js"></script> -->
+	<script src="app/factories/about.factory.js"></script>
+	<script src="app/factories/contact.factory.js"></script>
+	<script src="app/factories/createEvent.factory.js"></script>
+	<script src="app/factories/events.factory.js"></script>
+	<script src="app/factories/home.factory.js"></script>
+	<script src="app/factories/loginRegister.factory.js"></script>
+	<script src="app/factories/services.factory.js"></script>
+	<script src="app/factories/singleEvent.factory.js"></script>
+	<script src="app/factories/welcome.factory.js"></script>
 
 	
 	<!-- controllers -->
-	<!-- <script src="app/controllers/home.controller.js"></script> -->
+	<script src="app/controllers/about.controller.js"></script>
+	<script src="app/controllers/contact.controller.js"></script>
+	<script src="app/controllers/createEvent.controller.js"></script>
+	<script src="app/controllers/events.controller.js"></script>
+	<script src="app/controllers/home.controller.js"></script>
+	<script src="app/controllers/loginRegister.controller.js"></script>
+	<script src="app/controllers/services.controller.js"></script>
+	<script src="app/controllers/singleEvent.controller.js"></script>
+	<script src="app/controllers/welcome.controller.js"></script>
  
 	
 
 </body>
+
 </html>
