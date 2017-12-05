@@ -29,7 +29,6 @@ Things you may want to cover:
 
 ### Things done today
 
-* 0900-1000 - Signed divorce papers.
 * Created the API.
 * Created all the tables and attributes within.
 * Fixed some of the relationships bewteen tables.
