@@ -1,2 +1,6 @@
 "use strict";
-console.log("login/register factory is registered");
+
+app.factory("loginRegisterFactory", function($q, $http){
+    console.log("login/register factory is registered");
+    return {};
+});

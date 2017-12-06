@@ -1,2 +1,6 @@
 "use strict";
-console.log("single event factory is registered");
+
+app.factory("singleEventFactory", function($q, $http){
+    console.log("single event factory is registered");
+    return {};
+});

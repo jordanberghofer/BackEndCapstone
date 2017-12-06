@@ -1,2 +1,5 @@
 "use strict";
-console.log("contact controller is registered");
+
+app.controller("contactController", function($scope, contactFactory){
+    console.log("contact controller is registered");
+});

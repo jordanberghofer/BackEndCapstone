@@ -1,2 +1,5 @@
 "use strict";
-console.log("services controller is registered");
+
+app.controller("servicesController", function($scope, servicesFactory){
+    console.log("services controller is registered");
+});

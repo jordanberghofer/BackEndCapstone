@@ -10,47 +10,47 @@ app.config($routeProvider => {
         // Splash Welcome Page (all)
         .when('/', {
             templateUrl: '/partials/welcome.html',
-            controller: 'welcome.controller.js'
+            controller: 'welcomeController'
         })
         // Home Page (all)
         .when('/home', {
             templateUrl: '/partials/content/home.html',
-            controller: 'home.controller.js'
+            controller: 'homeController'
         })
         // Events Page (all)
         .when('/events', {
             templateUrl: '/partials/content/events.html',
-            controller: 'events.controller.js'
+            controller: 'eventsController'
         })
         // Single Event Page (all)
         .when('/event/:id', {
             templateUrl: '/partials/content/singleEvent.html',
-            controller: 'singleEvent.controller.js'
+            controller: 'singleEventController'
         })
         // Services Page (all)
         .when('/services', {
             templateUrl: '/partials/content/services.html',
-            controller: 'services.controller.js'
+            controller: 'servicesController'
         })
         // About Page (all)
         .when('/about', {
             templateUrl: '/partials/content/about.html',
-            controller: 'about.controller.js'
+            controller: 'aboutController'
         })
         // Contact Page (all)
         .when('/contact', {
             templateUrl: '/partials/content/contact.html',
-            controller: 'contact.controller.js'
+            controller: 'contactController'
         })
         // Login Page (all)
         .when('/login', {
             templateUrl: '/partials/content/loginRegister.html',
-            controller: 'loginRegister.controller.js'
+            controller: 'loginRegisterController'
         })
         // Create Event Page (admin only)
         .when('/createEvent', {
             templateUrl: '/partials/content/createEvent.html',
-            controller: 'createEvent.controller.js',
+            controller: 'createEventController',
             // resolve: {isAuth}
         })
         .otherwise('/');
