@@ -54,18 +54,6 @@ app.config($routeProvider => {
             // resolve: {isAuth}
         })
         .otherwise('/');
-
-        // // Example
-        // .when('/', {
-        //     templateUrl: '/partials/contents/login.html',
-        //     controller: 'loginCtrl'
-        // })
-        // .when('/singleView/:id', {
-        //     templateUrl: '/partials/contents/singleView.html',
-        //     controller: 'singleViewCtrl',
-        //     resolve: {isAuth}
-        // })
-        // .otherwise('/');
 });
 
 // app.run(($location, FBCreds)=> firebase.initializeApp(FBCreds));
