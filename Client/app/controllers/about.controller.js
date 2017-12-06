@@ -1,3 +1,5 @@
 "use strict";
 
-console.log("about controller is registered");
+app.controller("aboutController", function($scope, aboutFactory){
+    console.log("about controller is registered");
+});

@@ -1,2 +1,6 @@
 "use strict";
-console.log("contact factory is registered");
+
+app.factory("contactFactory", function($q, $http){
+    console.log("contact factory is registered");
+    return {};
+});

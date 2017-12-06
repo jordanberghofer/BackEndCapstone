@@ -1,2 +1,5 @@
 "use strict";
-console.log("single event controller is registered");
+
+app.controller("singleEventController", function($scope, singleEventFactory){
+    console.log("single event controller is registered");
+});

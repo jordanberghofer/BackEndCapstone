@@ -1,2 +1,5 @@
 "use strict";
-console.log("home controller is registered");
+
+app.controller("homeController", function($scope, homeFactory){
+    console.log("home controller is registered");
+});
