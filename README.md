@@ -23,6 +23,11 @@ Things you may want to cover:
 
 * ...
 
+
+
+
+
+
 # Log
 
 ## December 4, 2017
@@ -51,3 +56,35 @@ Things you may want to cover:
 * Make sure grunt and all supporting files/code within those files are running properly after creation.
 * Make sure all of the linting is running correctly
 * Decide which of the views to start with.
+
+
+
+
+## December 5, 2017
+
+### Things done today
+
+* Created basic file structure for Client.
+* Controllers/Factories registered and connected.
+* Grunt and package.json file are made and running.
+* 2 hours of the day was taken up with guest speakers.
+* index.html made.
+* 3rd party dependencies have been linked up to index.html.
+* Sass and CSS files created.
+* Lib files created.
+* Partials for all views have been created and connected.
+
+### Things to do tonight
+
+* Review Bootstrap for Services/createEvent/Home page views (hardest of all the views)
+* Google Maps widget research.
+* Research connection of Ruby API to AngularJS client.
+* Reach out to Joe (project manager) about coffee, Thursday.
+
+
+### Things to do tomoroow
+
+* Make issue tickets
+* Start making basic calls to API.
+* Make sure all data is coming back from calls.
+* Start thinking about what methods you are going to need.
