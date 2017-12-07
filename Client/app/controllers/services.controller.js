@@ -3,9 +3,9 @@
 app.controller("servicesController", function($scope, servicesFactory){
     console.log("services controller is registered");
 
-    const showAllEvents = function(){
-        console.log('showAllEvents');
+    const showAllServices = function(){
+        console.log('showAllServices');
     };
 
-    eventsFactory.getAllEvents().then(data => console.log(data));
+    servicesFactory.getAllServices().then(data => console.log(data));
 });
