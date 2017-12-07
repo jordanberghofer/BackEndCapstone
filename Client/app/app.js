@@ -30,7 +30,7 @@ app.config($routeProvider => {
         // Services Page (all)
         .when('/services', {
             templateUrl: '/partials/content/services.html',
-            controller: 'servicesController'
+            controller: 'serviceGroupsController'
         })
         // About Page (all)
         .when('/about', {
