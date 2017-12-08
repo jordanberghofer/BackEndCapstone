@@ -5,6 +5,7 @@ app.factory("serviceGroupsFactory", function($q, $http){
 
     const getAllServiceGroups = function(){
         console.log("getAllServiceGroups");
+        
         return $q((resolve, reject) => {
             $http.get(`http://localhost:3000/service_groups`)
             .then(data => resolve(data))

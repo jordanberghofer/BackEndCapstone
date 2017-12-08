@@ -1,0 +1,44 @@
+.navbar-nav {
+    flex-direction: row;
+}
+
+#aboutContainer{
+    height: 100%;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    flex: wrap;
+}
+
+#leftAboutCard {
+    margin: 10%;
+    height: 90%;
+    width: 40%;
+}
+
+#rightAboutCard {
+    margin: 10%;
+    height: 90%;
+    width: 60%;
+}
+
+.form-group {
+    margin: 2%;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }

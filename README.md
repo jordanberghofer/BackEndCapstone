@@ -103,8 +103,32 @@ Things you may want to cover:
 * Dummy data added to database.
 * Created the functions that make calls to bring back all events/services/service_groups from the database in console logs.
 
+### Things To Do Tonight
+*  Nothing. Power is out. No Internet.
+
 ### Things To Do Tomorrow
 * Start templating out the navbar and certain views. 
 * Get the form for creating events, created.
 * After event form is created, have the form start making a call to the database to push information.
+
+
+## December 7, 2017
+
+### Things Done Today
+* Most of the day was wasted with "John Talk".
+* Navbar working properly.
+* About view created and set up.
+* Create event form created and set up. Still needs to push information to the database.
+
+### Things To Do Tonight
+*  Nothing. Power is out again. No Internet.
+
+### Things To Do Tomorrow
+* Get the Create Event form to push information to the database.
+* Create the volunteer form created and prep for pushing that information to the database.
+* Start on user authentication.
+
+
+
+
 

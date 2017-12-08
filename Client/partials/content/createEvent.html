@@ -1,1 +1,140 @@
-<h1>Create Event Test</h1>
+<form class="form-group">
+
+    <h1>Create Event</h1>
+
+    <div class="form-group">
+        <label>Picture</label>
+        <input ng-model="newEvent.image" type="text" class="form-control" id="formGroupExampleInput" placeholder="Picture">
+    </div>
+
+    <div class="form-group">
+        <label>Name</label>
+        <input ng-model="newEvent.name"type="text" class="form-control" id="formGroupExampleInput2" placeholder="John Doe">
+    </div>
+
+    <div class="form-group">
+        <label>Date</label>
+        <input ng-model="newEvent.date" type="text" class="form-control" id="formGroupExampleInput2" placeholder="August 5, 2017">
+    </div>
+
+    <div class="form-group">
+        <label>Race Details</label>
+        <input ng-model="newEvent.race_details" type="text" class="form-control" id="formGroupExampleInput2" placeholder="If you're looking for a scenic venue, a fast but challenging course, and awesome post-race activities, look no further.  The Riverbluff Triathlon, one of the Southeast's premier multi-sport events, is being lauded for its uniqueness, personal touches, and attractiveness to both veterans and beginners alike. We want to build a sense of community with this race and we would love to have you join us in 2018 for one of the fastest growing triathlons in the country. Enjoy the live music, interactive custom shirts, church service post race and delicious food in what we believe is the best post-race experience you'll find. We also invite you to meet and engage with our participants as we feature them leading up to race day in our Athlete Profiles, as well as interacting through our Facebook Event Page (link below).">
+    </div>
+
+    <div class="form-group">
+        <label>Location</label>
+        <input ng-model="newEvent.location" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ashland City, TN  (20 mi west of downtown Nashville)">
+    </div>
+
+    <div class="form-group">
+        <label>Olympic Distances</label>
+        <input ng-model="newEvent.olympic_distances" type="text" class="form-control" id="formGroupExampleInput2" placeholder="1.5k swim - 40k bike - 10k run">
+    </div>
+
+    <div class="form-group">
+        <label>Sprint Distances</label>
+        <input ng-model="newEvent.sprint_distances" type="text" class="form-control" id="formGroupExampleInput2" placeholder="400 meter swim - 14 mile bike - 5k run">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Olympic Age)</label>
+        <input ng-model="newEvent.olympic_age_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Olympic Overall)</label>
+        <input ng-model="newEvent.olympic_overall_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Sprint Age)</label>
+        <input ng-model="newEvent.sprint_age_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Sprint Overall)</label>
+        <input ng-model="newEvent.sprint_overall_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Aquabike)</label>
+        <input ng-model="newEvent.aquabike_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Previous Year's Records (Relay)</label>
+        <input ng-model="newEvent.relay_previous_yr" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://racedayevents.net/files/4915/0215/7307/Riverbluff_Sprint_Overall_Results.htm">
+    </div>
+
+    <div class="form-group">
+        <label>Details For Each Stage (Swim, Bike, Run)</label>
+        <input ng-model="newEvent.stage_details" type="text" class="form-control" id="formGroupExampleInput2" placeholder="The swim will take place in the scenic Cumberland River, maximizing down stream and paths of least resistance.  This section of the river has very little current so swim times will be fast.  The bike is set up to be fast.  Sprint participants will ride out Hwy 12 to the Davidson County line and back, with Olympic participants making 2 loops.  The run takes you out to the Cumberland River Bicentennial Trail where you'll be surrounded by the sounds of nature and color of wildflowers.  The Bicentennial Trail is flat and shaded, making it an ideal course for the run.">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Swim Map (Olympic)</label>
+        <input ng-model="newEvent.olympic_swim_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Bike Map (Olympic)</label>
+        <input ng-model="newEvent.olympic_bike_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Run Map (Olympic)</label>
+        <input ng-model="newEvent.olympic_run_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Swim Map (Sprint)</label>
+        <input ng-model="newEvent.sprint_swim_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Bike Map (Sprint)</label>
+        <input ng-model="newEvent.sprint_bike_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Run Map (Sprint)</label>
+        <input ng-model="newEvent.sprint_run_map" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.mapometer.com/swimming/route_4222281.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Site Plan</label>
+        <input ng-model="newEvent.site_plan" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://nebula.wsimg.com/29db2573fd08c57890520427089ceee1?AccessKeyId=9A6058BC3313890D0503&disposition=0&alloworigin=1">
+    </div>
+
+    <div class="form-group">
+        <label>Link to FAQ's</label>
+        <input ng-model="newEvent.FAQs" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.abovethefoldevents.com/riverbluff-triathlon-faqs.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Schedule</label>
+        <input ng-model="newEvent.schedule" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.abovethefoldevents.com/riverbluff-triathlon-schedule-of-events.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Facebook</label>
+        <input ng-model="newEvent.facebook" type="text" class="form-control" id="formGroupExampleInput2" placeholder="https://www.facebook.com/events/703411243197028/">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Register</label>
+        <input ng-model="newEvent.register" type="text" class="form-control" id="formGroupExampleInput2" placeholder="https://endurancecui.active.com/event-reg/select-race?e=49036451">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Sponsor</label>
+        <input ng-model="newEvent.sponsor" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.abovethefoldevents.com/riverbluff-triathlon.html">
+    </div>
+
+    <div class="form-group">
+        <label>Link to Volunteer</label>
+        <input ng-model="newEvent.volunteer" type="text" class="form-control" id="formGroupExampleInput2" placeholder="http://www.abovethefoldevents.com/riverbluff-triathlon.html">
+    </div>    
+    
+</form>
