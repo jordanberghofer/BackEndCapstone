@@ -129,6 +129,21 @@ Things you may want to cover:
 * Start on user authentication.
 
 
+## December 8, 2017
 
+### Things Done Today
+* Events are able to be created, and now show up on the DOM in the "all events" view.
+* All service groups are showing up on DOM in "services" view.
+* All services are showing up on DOM in "services" view.
+* Very minor styling accomplished.
 
+### Things To Do Tonight
+* Get the ordering of the services within their groups ordered.
+* Get the Navbar to "flex-direction: row:" as opposed to a column.
+* Research that paralax thing a little more. 
 
+### Things To Do Tomorrow
+* Login functionality to where a volunteer can login and be able to distinguish between volunteer and admin.
+* Hide things that need an admin authorization.
+* Get some more styling done on the NavBar.
+* If you have time to do it, get the carousel working in the services view.
