@@ -1,4 +1,4 @@
-.navbar-nav {
+.navbar {
     flex-direction: row;
 }
 
@@ -11,13 +11,13 @@
 }
 
 #leftAboutCard {
-    margin: 10%;
+    margin: 1%;
     height: 90%;
     width: 40%;
 }
 
 #rightAboutCard {
-    margin: 10%;
+    margin: 1%;
     height: 90%;
     width: 60%;
 }
@@ -29,16 +29,43 @@
 
 ::-webkit-input-placeholder {
     text-align: center;
- }
+}
  
- :-moz-placeholder { /* Firefox 18- */
-    text-align: center;  
- }
- 
- ::-moz-placeholder {  /* Firefox 19+ */
-    text-align: center;  
- }
- 
- :-ms-input-placeholder {  
-    text-align: center; 
- }
+:-moz-placeholder { /* Firefox 18- */
+	text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	text-align: center;  
+}
+
+:-ms-input-placeholder {  
+	text-align: center; 
+}
+
+#contactFormAndMapContainer{
+	height: 100%;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    flex: wrap;
+}
+
+#contactForm{
+	margin: 1%;
+    height: 90%;
+	width: 60%;
+}
+
+#googleMapSpace{
+
+	margin: 1%;
+    height: 90%;
+    width: 40%;
+}
+
+.eve{
+    text-align: center;
+}
+
+

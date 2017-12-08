@@ -4,10 +4,14 @@ app.controller("eventsController", function($scope, eventsFactory){
     console.log("events controller is registered");
 
     const showAllEvents = function(){
-        console.log('showAllEvents');
+        eventsFactory.getAllEvents()
+        .then(data => {
+            console.log("data has been fetched", data);
+            $scope.allEventsArray = data.data;
+        })
+        .catch(error => console.log(error));
     };
 
-    eventsFactory.getAllEvents().then(data => console.log(data));
-
+    showAllEvents();
 
 });

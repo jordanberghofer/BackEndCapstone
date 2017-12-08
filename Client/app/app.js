@@ -23,7 +23,7 @@ app.config($routeProvider => {
             controller: 'eventsController'
         })
         // Single Event Page (all)
-        .when('/event/:id', {
+        .when('/events/:id', {
             templateUrl: '/partials/content/singleEvent.html',
             controller: 'singleEventController'
         })
