@@ -4,6 +4,8 @@ app.controller("createEventController", function($scope, createEventFactory){
     console.log("create event controller is registered");
 
     $scope.newEvent = {
+        
+        administrator_id: 6,
         image: "",
         name: "",
         date: "",
@@ -29,10 +31,12 @@ app.controller("createEventController", function($scope, createEventFactory){
         schedule: "",
         facebook: "",
         register: "",
-        sponsor: "",
-        volunteer: "",
+        sponsor: ""
+        
     };  
-    
-    
+
+    $scope.postCreateEventInfo = function(newEvent){
+		createEventFactory.post(newEvent);
+	};
     
 });
