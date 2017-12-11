@@ -45,6 +45,10 @@
 		<div ng-model="eventThings.register"><h5>register: {{eventThings.register}}</h5></div>
 		<div ng-model="eventThings.sponsor"><h5>sponsor: {{eventThings.sponsor}}</h5></div>
 		<div ng-model="eventThings.volunteer_link"><h5>volunteer_link: {{eventThings.volunteer_link}}</h5></div><br>
+		
+		<div class="btn">
+				<button ng-click="deleteEventFromDB(eventThings.id)">Delete this Bad BOI</button>
+		</div>
 
     </div>
 </div>

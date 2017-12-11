@@ -12,6 +12,12 @@ app.controller("eventsController", function($scope, eventsFactory){
         .catch(error => console.log(error));
     };
 
+    $scope.deleteEventFromDB = function(id){
+        console.log("deleteEvent in events.controller.js");
+        eventsFactory.deleteEvent(id)
+        .then(() => showAllEvents());
+    };
+
     showAllEvents();
 
 });
