@@ -96,6 +96,7 @@ Things you may want to cover:
 * Start thinking about what methods you are going to need.
 
 
+
 ## December 6, 2017
 
 ### Things Done Today
@@ -110,6 +111,7 @@ Things you may want to cover:
 * Start templating out the navbar and certain views. 
 * Get the form for creating events, created.
 * After event form is created, have the form start making a call to the database to push information.
+
 
 
 ## December 7, 2017
@@ -127,6 +129,7 @@ Things you may want to cover:
 * Get the Create Event form to push information to the database.
 * Create the volunteer form created and prep for pushing that information to the database.
 * Start on user authentication.
+
 
 
 ## December 8, 2017
@@ -147,3 +150,6 @@ Things you may want to cover:
 * Hide things that need an admin authorization.
 * Get some more styling done on the NavBar.
 * If you have time to do it, get the carousel working in the services view.
+
+
+

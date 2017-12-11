@@ -1,5 +1,10 @@
-.navbar {
-    flex-direction: row;
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+#navlinks > li {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #aboutContainer{

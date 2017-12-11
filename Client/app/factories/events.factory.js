@@ -22,5 +22,14 @@ app.factory("eventsFactory", function($q, $http){
 
     };
 
-    return {getAllEvents};
+    const deleteEvent = function(id) {
+        console.log("deleteEvent function in events.factory.js");
+        return $q((resolve, reject) =>{
+            $http.delete(`http://localhost:3000/events/${id}`)
+            .then(response => resolve(response))
+            .catch(error => reject(error));
+        });
+    };
+
+    return {getAllEvents, deleteEvent};
 });
