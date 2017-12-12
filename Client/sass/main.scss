@@ -1,3 +1,7 @@
+h1{
+    text-align: center;
+}
+
 .navbar-nav {
     flex-direction: row !important;
 }
@@ -71,6 +75,21 @@
 
 .eve{
     text-align: center;
+}
+
+.serviceGroupCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.serviceGroupCard{
+    margin: 2%;
+    text-align: center;
+}
+
+#servicesPageCarousel{
+    text-align: -webkit-center
 }
 
 

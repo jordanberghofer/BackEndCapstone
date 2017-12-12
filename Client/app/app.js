@@ -1,6 +1,6 @@
 "use strict";
 
-const app = angular.module("ATF", ["ngRoute"]);
+const app = angular.module("ATF", ["ngRoute", "ui.bootstrap"]);
 
 // const isAuth = (loginFact) => loginFact.isAuthenticated();
 
@@ -55,6 +55,3 @@ app.config($routeProvider => {
         })
         .otherwise('/');
 });
-
-// app.run(($location, FBCreds)=> firebase.initializeApp(FBCreds));
-// app.run(($rootScope)=> $rootScope.showSearch = false);

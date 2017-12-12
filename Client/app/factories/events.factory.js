@@ -31,5 +31,14 @@ app.factory("eventsFactory", function($q, $http){
         });
     };
 
+    const editEvent = function(id) {
+        console.log("editEvent function in events.factory.js");
+        return $q((resolve, reject) =>{
+            $http.patch(`http://localhost:3000/events/${id}`)
+            .then(response => resolve(response))
+            .catch(error => reject(error));
+        });
+    };
+
     return {getAllEvents, deleteEvent};
 });
