@@ -152,4 +152,19 @@ Things you may want to cover:
 * If you have time to do it, get the carousel working in the services view.
 
 
+## December 11, 2017
 
+### Things Done Today
+* Delete functionality up and running.
+* Services are in order now within their parent tables.
+* Service Group Carousel outlined. Need to get it working.
+* Single View of an event is a little broken. Just need to ask a TA tomorrow about what I messed up on!
+* Second half of the day was taken up with talking with Joe (project manager) about the website.
+* Navbar flex-direction working correctly now.
+
+### Things To Do Tomorrow
+* Login functionality to where a volunteer can login and be able to distinguish between volunteer and admin.
+* Hide things that need an admin authorization.
+* Get single view of an event up and running. 
+* Get some more styling done.
+* Get the carousel working in the services view.
