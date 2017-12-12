@@ -18,6 +18,12 @@ app.controller("eventsController", function($scope, eventsFactory){
         .then(() => showAllEvents());
     };
 
+    $scope.editEventInDB = function(id){
+        console.log("editEvent in events.controller.js");
+        eventsFactory.editEvent(id)
+        .then(() => showAllEvents());
+    };
+
     showAllEvents();
 
 });

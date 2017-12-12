@@ -18,9 +18,20 @@ app.controller("serviceGroupsController", function($scope, serviceGroupsFactory,
             console.log("$scope.servicesArray = data.data", $scope.servicesArray);
         })
         .catch(error => console.log(error));
-    };
+	};
+	
+	
 
     showAllServices();
     showAllServiceGroups();
 
 });
+
+// angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($scope) {
+// 	$scope.myInterval = 5000;
+// 	$scope.noWrapSlides = false;
+// 	$scope.active = 0;
+// 	var slides = $scope.slides = [];
+// 	var currIndex = 0;
+
+// });
